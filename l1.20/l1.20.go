@@ -39,17 +39,23 @@ func main() {
 	revertedString = ReversWords(theString)
 	fmt.Printf("Строка:\t\t%s\nПеревернутая:\t%s\n\n", theString, revertedString)
 	//   Строка:		главрыба
-	//   Перевернутая:
+	//   Перевернутая:	главрыба
+
+	theString = "snow dog sun"
+	revertedString = ReversWords(theString)
+	fmt.Printf("Строка:\t\t%s\nПеревернутая:\t%s\n\n", theString, revertedString)
+	//   Строка:		snow dog sun
+	//   Перевернутая:	sun dog snow
 
 	theString = "Разработать программу, которая переворачивает подаваемую на вход строку."
 	revertedString = ReversWords(theString)
 	fmt.Printf("Строка:\t\t%s\nПеревернутая:\t%s\n\n", theString, revertedString)
 	//   Строка:		Разработать программу, которая переворачивает подаваемую на вход строку.
-	//   Перевернутая:	ьтатобарзаР ,уммаргорп яароток теавичаровереп юумеавадоп ан дохв
+	//   Перевернутая:	строку. вход на подаваемую переворачивает которая программу, Разработать
 
 	theString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
 	revertedString = ReversWords(theString)
 	fmt.Printf("Строка:\t\t%s\nПеревернутая:\t%s\n\n", theString, revertedString)
 	//   Строка:		Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-	//   Перевернутая:	meroL muspi rolod tis ,tema rutetcesnoc gnicsipida
+	//   Перевернутая:	elit. adipiscing consectetur amet, sit dolor ipsum Lorem
 }
